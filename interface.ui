@@ -87,7 +87,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QLabel" name="label_value">
+   <widget class="QLabel" name="label_gaussBlurValue">
     <property name="geometry">
      <rect>
       <x>690</x>

@@ -11,11 +11,11 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     interface.cpp \
-    processingopencv.cpp
+    mymat.cpp
 
 HEADERS += \
     interface.h \
-    processingopencv.h
+    mymat.h
 
 FORMS += \
     interface.ui

@@ -1,7 +1,8 @@
 #ifndef INTERFACE_H
 #define INTERFACE_H
 
-#include "processingopencv.h"
+//#include "processingopencv.h"
+#include "mymat.h"
 #include <QMainWindow>
 #include <QFileDialog>
 #include <QtWidgets>
@@ -29,7 +30,7 @@ private slots:
 
 private:
     Ui::Interface *ui;
-    QImage m_image;
-    processingOpenCV m_object;
+    QImage *m_image;
+    MyMat *m_mat;
 };
 #endif // INTERFACE_H
